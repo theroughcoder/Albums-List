@@ -1,0 +1,64 @@
+ /* Form Styles */
+ .album-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .my-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eae6e689;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px grey;
+    position: relative;
+}
+.cancel{
+    position: absolute;
+    top: 1ch;
+    right: 2ch;
+    font-size: large;
+    color: #585959;
+    cursor: pointer;
+}
+
+/* Input Styles */
+.my-input-album {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.text-input{
+    /* box-sizing: border-box; */
+    font-size: large;
+    color: #555;
+    display: block;
+    margin: 1ch;
+    /* padding: 100px; */
+}
+/* Button Styles */
+.my-button {
+    margin-left: 1ch;
+    box-sizing: border-box;
+    width: 20%;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.my-button:hover {
+    background-color: #005abf;
+}
+/* .album-body{
+    display: flex;
+    flex-wrap: wrap;
+} */
